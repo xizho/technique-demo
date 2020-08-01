@@ -28,6 +28,7 @@ public enum CalculatorEnum {
             return a - b;
         }
     };
+
     String value;
 
     abstract int exec(int a, int b);

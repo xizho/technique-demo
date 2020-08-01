@@ -2,9 +2,9 @@ package com.example.design.pattern.observer.notify;
 
 public class ClientMain {
     public static void main(String[] args) {
-        Observer lisi = new Lisi();
+        Observer lisi   = new Lisi();
         Observer wangsi = new Wangsi();
-        Observer liusi = new Liusi();
+        Observer liusi  = new Liusi();
 
         Hanfeizi hanfeizi = new Hanfeizi();
         hanfeizi.addObserver(lisi);

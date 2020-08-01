@@ -20,5 +20,11 @@ public class Consumer {
 
         Instant end = Instant.now();
         System.out.println("耗时：" + Duration.between(start, end).toMillis() + " ms");
+
+        try {
+            Thread.currentThread().join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

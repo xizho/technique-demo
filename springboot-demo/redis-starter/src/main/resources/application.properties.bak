@@ -1,0 +1,11 @@
+# xizho redis
+xizho.redis.host=192.168.248.105
+xizho.redis.password=
+xizho.redis.port=6379
+xizho.redis.database=4
+xizho.redis.jedis.pool.max-idle=200
+xizho.redis.jedis.pool.min-idle=1
+xizho.redis.jedis.pool.max-active=1000
+xizho.redis.jedis.pool.max-wait=3000
+xizho.redis.timeout=60000
+

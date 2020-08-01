@@ -1,6 +1,5 @@
 package com.example.design.pattern.observer;
 
-import javafx.event.Event;
 
 /**
  * 类职责：<br/>
@@ -20,5 +19,5 @@ import javafx.event.Event;
 
 public interface IObserver {
 
-    void update(Event event);
+//    void update(Event event);
 }

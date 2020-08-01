@@ -31,7 +31,7 @@ import org.springframework.context.annotation.Configuration;
  * <p></p>
  * <p> </p>
  */
-@Configuration
+//@Configuration
 //public class ActuatorSecurityConfig extends WebSecurityConfigurerAdapter {
 public class ActuatorSecurityConfig {
    /* @Override

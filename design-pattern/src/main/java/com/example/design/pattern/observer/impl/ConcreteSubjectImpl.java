@@ -2,9 +2,7 @@ package com.example.design.pattern.observer.impl;
 
 import com.example.design.pattern.observer.IObserver;
 import com.example.design.pattern.observer.ISubject;
-import javafx.event.Event;
 
-import java.awt.*;
 import java.util.Vector;
 
 /**

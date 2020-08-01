@@ -10,10 +10,11 @@ import org.apache.zookeeper.ZooDefs;
 import java.util.List;
 
 public class CuratorTest {
+
     public static void main(String[] args) throws Exception {
         System.out.println("----- new client -----");
         CuratorFramework client = CuratorFrameworkFactory
-                .newClient("192.168.248.129:2181", new RetryNTimes(10, 5000));
+                .newClient("192.168.248.105:2181", new RetryNTimes(10, 5000));
         System.out.println("----- new start -----");
         client.start();
         // 获取子节点
@@ -34,20 +35,21 @@ public class CuratorTest {
 
         System.out.println("----- set data -----");
         // 设置节点数据
-        client
-                .setData()
+        client.setData()
                 .forPath("/test", "111".getBytes());
-        client
-                .setData()
+        client.setData()
                 .forPath("/test", "222".getBytes());
-        System.out.println("----- delete data -----");
-        // 删除节点
-//        System.out.println(client.checkExists().forPath("/test"));
+//        System.out.println("----- delete data -----");
+//         删除节点
+        System.out.println(client.checkExists().forPath("/test"));
 //        client.delete().withVersion(-1).forPath("/test");
 //        System.out.println(client.checkExists().forPath("/test"));
         Thread.currentThread().join();
         System.out.println("----- client close -----");
         client.close();
         System.out.println("OK! ");
+
+        System.in.read();
     }
+
 }
