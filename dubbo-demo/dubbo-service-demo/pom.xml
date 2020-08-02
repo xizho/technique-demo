@@ -6,9 +6,8 @@
         <groupId>com.example.dubbo</groupId>
         <artifactId>dubbo-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+         <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.dubbo.service</groupId>
     <artifactId>dubbo-service-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dubbo-service-demo</name>
@@ -44,18 +43,15 @@
         <dependency>
             <groupId>com.example.dubbo.provider</groupId>
             <artifactId>dubbo-provider-demo</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.6.0</version>
         </dependency>
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
-            <version>0.11</version>
         </dependency>
     </dependencies>
 

@@ -3,18 +3,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.example.rpc</groupId>
+        <artifactId>rpc-demo</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+         <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.rpc</groupId>
     <artifactId>rpc-server-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>rpc-server-demo</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
+    <modules>
+        <module>rpc-server-api-demo</module>
+        <module>rpc-server-provider-demo</module>
+    </modules>
 
     <build>
         <plugins>

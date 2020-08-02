@@ -40,9 +40,9 @@
         <!-- jdbc连接 -->
         <jdbcConnection
                 driverClass="com.mysql.cj.jdbc.Driver"
-                connectionURL="jdbc:mysql://172.31.0.18:3306/cashier"
+                connectionURL="jdbc:mysql://localhost:3306/cashier"
                 userId="root"
-                password="!QAZ2wsx"/>
+                password="123123"/>
         <!-- 类型转换 -->
         <javaTypeResolver>
             <!-- 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） -->
@@ -75,10 +75,10 @@
             &lt;!&ndash; 数据库表主键 &ndash;&gt;
             <generatedKey column="id" sqlStatement="Mysql" identity="true" />
         </table>-->
-        <table schema="" name="tmp_user_pay_account" enableCountByExample="false" enableUpdateByExample="true"
+        <table schema="" tableName="tmp_user_pay_account" enableCountByExample="false" enableUpdateByExample="true"
                enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="true"/>
 
-        <table name="tc_msg_code_config" enableCountByExample="false" enableUpdateByExample="true"
+        <table tableName="tc_msg_code_config" enableCountByExample="false" enableUpdateByExample="true"
                enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="true"/>
     </context>
 

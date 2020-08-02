@@ -6,9 +6,8 @@
         <groupId>com.example.dubbo</groupId>
         <artifactId>dubbo-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+         <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.dubbo.consumer</groupId>
     <artifactId>dubbo-consumer-demo</artifactId>
     <name>dubbo-consumer-demo</name>
     <description>dubbo-consumer-demo project for Spring Boot</description>
@@ -34,29 +33,19 @@
         <dependency>
             <groupId>com.example.dubbo.provider</groupId>
             <artifactId>dubbo-provider-demo</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.6.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-classic</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.5.7</version>
         </dependency>
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
-            <version>0.11</version>
         </dependency>
     </dependencies>
 

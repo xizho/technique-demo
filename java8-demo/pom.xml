@@ -3,7 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example.java8</groupId>
     <artifactId>java8-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -15,7 +14,7 @@
         <groupId>com.technique.example</groupId>
         <artifactId>demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../</relativePath><!-- lookup parent from repository -->
+        <!-- lookup parent from repository -->
     </parent>
 
     <properties>
