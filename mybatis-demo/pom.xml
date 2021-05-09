@@ -58,11 +58,11 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <!--添加mybatis generator maven插件-->
-            <plugin>
+            <!--<plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <configuration>
-                    <!--generatorConfig.xml位置-->
+                    &lt;!&ndash;generatorConfig.xml位置&ndash;&gt;
                     <configurationFile>src/main/resources/mybatis-generator/generator-Config.xml</configurationFile>
                     <verbose>true</verbose>
                     <overwrite>true</overwrite>
@@ -76,7 +76,7 @@
                         <phase>generate-sources</phase>
                     </execution>
                 </executions>
-                <!--此处必须添加mysql驱动包-->
+                &lt;!&ndash;此处必须添加mysql驱动包&ndash;&gt;
                 <dependencies>
                     <dependency>
                         <groupId>mysql</groupId>
@@ -84,7 +84,7 @@
                         <version>8.0.21</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
