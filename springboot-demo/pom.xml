@@ -20,6 +20,7 @@
         <module>database-demo</module>
         <module>base-demo</module>
         <module>web-demo</module>
+        <module>quartz-demo</module>
     </modules>
 
 </project>
