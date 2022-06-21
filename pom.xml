@@ -46,7 +46,7 @@
         <apache.commons-pool2.version>2.8.1</apache.commons-pool2.version>
         <jedis.version>3.3.0</jedis.version>
 
-        <mysql-connector-java.version>8.0.21</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <dubbo-provider-demo.version>0.0.1-SNAPSHOT</dubbo-provider-demo.version>
         <redis-starter-demo.version>0.0.1-SNAPSHOT</redis-starter-demo.version>
     </properties>
